@@ -1,0 +1,184 @@
+@media(max-width : 860px){
+    .sidebar{
+      height: auto;
+      width: 70px;
+      left: 0;
+      margin: 100px 0;
+    }
+    header,#btn,#cancel{
+      display: none;
+    }
+    span{
+      position: absolute;
+      margin-left: 23px;
+      opacity: 0;
+      visibility: hidden;
+    }
+    .sidebar a{
+      height: 60px;
+    }
+    .sidebar a i{
+      margin-left: -10px;
+    }
+    a:hover {
+      width: 200px;
+      background: inherit;
+    }
+    .sidebar a:hover span{
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  @media(max-width : 480px){
+    .banner{
+      max-width: 75%;
+      margin-left: 75px;
+    }
+    .find{
+        float: none;
+    }
+    .find p:first-child{
+        width: 200px;
+        font-size: 20px;
+        margin-left: 50px;
+        
+    }
+    .find p:nth-child(2){
+        width: 200px;
+        font-size: 17px;
+        margin-left: 50px;
+        margin-top: -30px;
+
+        /* padding-left: 100px; */
+        
+    }
+    
+    .find input{
+        width: 200px;
+        margin-left: 50px;
+    }
+    .find label{
+        display: none;
+    }
+    .find button{
+        width: 50px;
+        height: 40px;
+        left: 270px;
+        top: 280px;
+    }
+    .img img{
+        /* position: absolute; */
+        width: 200px;
+        height: 250px;
+        top: 368px;
+        left: 120px;
+    }
+    .curs p{
+        font-size: 25px;
+    }
+    .all {
+        position: absolute;
+        width: 300px;
+        font-size: 5px;
+        margin: 3px;
+        left: 10px;
+    }
+    .all button{
+        font-size: 10px;
+        width: 50px;
+        flex-wrap: wrap;
+    }
+    .all div:nth-child(4){
+        display: none;
+    }
+    .apple{
+        display: block;
+        margin-left: 20px;
+    }
+    .skil{
+        background-color: blanchedalmond;
+        width: 280px;
+        height: 300px;
+    }
+    .apple img{
+        width: 100px;
+    }
+    .categories{
+      display: block;
+      margin-left: 50px;
+    }
+    .count{
+      display: none;
+    }
+    .bec{
+      display: block;
+    }
+    .becimg img{
+      width: 300px;
+      height: 350px;
+      margin-left: -40px;
+    }
+    .an1{
+      display: none;
+    }
+    .an2{
+      width: 270px;
+      font-size: 15px;
+      margin-left: -75px;
+    }
+    .becmentor input{
+      margin-left: -45px;
+    }
+    .study{
+      display: block;
+    }
+    .study img{
+      margin-top: -80px;
+      margin-left: -190px;
+      width: 300px;
+    }
+    .study p{
+      text-align: center;
+      width: 250px;
+      font-size: 20px;
+      margin-left: -220px;
+    }
+    .study p:nth-child(3){
+      display: none;
+    }
+    .trust{
+      font-size: 25px;
+    }
+    .logos{
+      display: none;
+    }
+    .logos1{
+      display: block;
+      margin-left: -10px;
+      margin-top: -50px;
+    }
+    .blog1{
+      font-size: 30px;
+      margin-left: 80px;
+    }
+    .late{
+      display: none;
+    }
+    footer{
+      width: 470px;
+      margin-left: -40px;
+      border: none;
+    }
+    .footer img{
+      width: 100px;
+      margin-left: -50px;
+    }
+    .footer p{
+      margin-left: -50px;
+      width: 370px;
+    }
+    .about .support .comp{
+      display: none;
+    }
+    }
+
